@@ -1,7 +1,7 @@
 function getFormvalue()
 	{
-		let fname=document.getElementByName("fname");
-		let lname=document.getElementByName("lname");
+		let fname=document.getElementById("fname").value;
+		let lname=document.getElementById("lname").value;
 		alert(fname+" "+lname);
-		alert("rakesh munukuntla");
+		
 }
